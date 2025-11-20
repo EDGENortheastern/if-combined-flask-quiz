@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Quiz</h1>
+
+    <form method="POST">
+        <p>Your name:</p>
+        <input name="name" required>
+
+        <p>{{ question }}</p>
+        <input name="answer" required>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>

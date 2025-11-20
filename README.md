@@ -1,12 +1,12 @@
 # Flask Quiz App
 
-A simple and elegant Flask web application that presents a short general‑knowledge quiz and stores user answers in a CSV file. This project is ideal for assessments, teaching, or introductory learning in Flask.
+A Flask web application that presents a single-question general‑knowledge quiz and stores user answer in a CSV file.
 
----
+## User Guide
 
 ## 📘 Introduction to Flask
 
-Flask is a lightweight web framework for Python. It provides tools to build web applications quickly while staying minimal and flexible. Unlike larger frameworks, Flask does not impose structure—you choose how your project grows.
+[Flask](https://flask.palletsprojects.com/en/stable/) is a lightweight web framework for Python. It provides tools to build web applications quickly while staying minimal and flexible. Unlike larger frameworks, Flask does not impose structure—you choose how your project grows.
 
 Key concepts used in this project:
 
@@ -76,4 +76,3 @@ This project demonstrates:
 - HTML templates
 - Input handling using forms  
 - Local CSV file storage for quiz results  
-

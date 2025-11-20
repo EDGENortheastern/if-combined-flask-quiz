@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Result</h1>
+
+    {% if correct %}
+        <p class="result-correct">Correct! 🎉</p>
+    {% else %}
+        <p class="result-wrong">Incorrect ❌</p>
+    {% endif %}
+
+    <p><strong>Name:</strong> {{ name }}</p>
+    <p><strong>Your answer:</strong> {{ user_answer }}</p>
+    <p><strong>Correct answer:</strong> {{ correct_answer }}</p>
+
+    <button onclick="window.location='/'">Try Again</button>
+
+</div>
+
+</body>
+</html>
