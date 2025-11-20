@@ -4,6 +4,8 @@ A Flask web application that presents a single-question general‑knowledge quiz
 
 ## User Guide
 
+
+
 ## 📘 Introduction to Flask
 
 [Flask](https://flask.palletsprojects.com/en/stable/) is a lightweight web framework for Python. It provides tools to build web applications quickly while staying minimal and flexible. Unlike larger frameworks, Flask does not impose structure—you choose how your project grows.
